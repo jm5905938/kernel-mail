@@ -1,0 +1,206 @@
+c[?7l[2J[0mSeaBIOS (version Arch Linux 1.17.0-2-2)
+Booting from ROM..c[?7l[2J[0m.TRACE_MOUNT ret=0 errno=17
+GET /sys/kernel/mm/damon/admin/kdamonds/0/contexts/0/avail_operations= ret=-1 errno=2
+TARGET pid=24 addr=3084894208 end=3085942784 bytes=1048576 long_bits=32
+SET /sys/kernel/mm/damon/admin/kdamonds/nr_kdamonds=1 ret=1 errno=0
+SET /sys/kernel/mm/damon/admin/kdamonds/0/contexts/nr_contexts=1 ret=1 errno=0
+SET /sys/kernel/mm/damon/admin/kdamonds/0/contexts/0/operations=vaddr ret=5 errno=0
+SET /sys/kernel/mm/damon/admin/kdamonds/0/contexts/0/targets/nr_targets=1 ret=1 errno=0
+SET /sys/kernel/mm/damon/admin/kdamonds/0/contexts/0/targets/0/regions/nr_regions=4 ret=1 errno=0
+SET /sys/kernel/mm/damon/admin/kdamonds/0/contexts/0/monitoring_attrs/intervals/sample_us=5000 ret=4 errno=0
+SET /sys/kernel/mm/damon/admin/kdamonds/0/contexts/0/monitoring_attrs/intervals/aggr_us=100000 ret=6 errno=0
+SET /sys/kernel/mm/damon/admin/kdamonds/0/contexts/0/monitoring_attrs/intervals/update_us=1000000 ret=7 errno=0
+SET /sys/kernel/mm/damon/admin/kdamonds/0/contexts/0/monitoring_attrs/intervals/intervals_goal/access_bp=400 ret=3 errno=0
+SET /sys/kernel/mm/damon/admin/kdamonds/0/contexts/0/monitoring_attrs/intervals/intervals_goal/aggrs=1 ret=1 errno=0
+SET /sys/kernel/mm/damon/admin/kdamonds/0/contexts/0/monitoring_attrs/intervals/intervals_goal/min_sample_us=2500 ret=4 errno=0
+SET /sys/kernel/mm/damon/admin/kdamonds/0/contexts/0/monitoring_attrs/intervals/intervals_goal/max_sample_us=10000 ret=5 errno=0
+SET /sys/kernel/mm/damon/admin/kdamonds/0/contexts/0/monitoring_attrs/nr_regions/min=3 ret=1 errno=0
+SET /sys/kernel/mm/damon/admin/kdamonds/0/contexts/0/monitoring_attrs/nr_regions/max=4 ret=1 errno=0
+SET /sys/kernel/mm/damon/admin/kdamonds/0/contexts/0/schemes/nr_schemes=1 ret=1 errno=0
+SET /sys/kernel/mm/damon/admin/kdamonds/0/contexts/0/schemes/0/action=stat ret=4 errno=0
+SET /sys/kernel/mm/damon/admin/kdamonds/0/contexts/0/schemes/0/access_pattern/sz/max=4294967295 ret=10 errno=0
+SET /sys/kernel/mm/damon/admin/kdamonds/0/contexts/0/schemes/0/access_pattern/nr_accesses/max=4294967295 ret=10 errno=0
+SET /sys/kernel/mm/damon/admin/kdamonds/0/contexts/0/schemes/0/access_pattern/age/max=4294967295 ret=10 errno=0
+SET /sys/kernel/mm/damon/admin/kdamonds/0/contexts/0/targets/0/pid_target=24 ret=2 errno=0
+SET /sys/kernel/mm/damon/admin/kdamonds/0/contexts/0/targets/0/regions/0/start=3084894208 ret=10 errno=0
+SET /sys/kernel/mm/damon/admin/kdamonds/0/contexts/0/targets/0/regions/0/end=3085156352 ret=10 errno=0
+SET /sys/kernel/mm/damon/admin/kdamonds/0/contexts/0/targets/0/regions/1/start=3085156352 ret=10 errno=0
+SET /sys/kernel/mm/damon/admin/kdamonds/0/contexts/0/targets/0/regions/1/end=3085418496 ret=10 errno=0
+SET /sys/kernel/mm/damon/admin/kdamonds/0/contexts/0/targets/0/regions/2/start=3085418496 ret=10 errno=0
+SET /sys/kernel/mm/damon/admin/kdamonds/0/contexts/0/targets/0/regions/2/end=3085680640 ret=10 errno=0
+SET /sys/kernel/mm/damon/admin/kdamonds/0/contexts/0/targets/0/regions/3/start=3085680640 ret=10 errno=0
+SET /sys/kernel/mm/damon/admin/kdamonds/0/contexts/0/targets/0/regions/3/end=3085942784 ret=10 errno=0
+SET /sys/kernel/tracing/events/damon/damos_before_apply/enable=1 ret=1 errno=0
+SET /sys/kernel/tracing/events/damon/damon_monitor_intervals_tune/enable=1 ret=1 errno=0
+SET /sys/kernel/mm/damon/admin/kdamonds/0/state=on ret=2 errno=0
+SET /sys/kernel/mm/damon/admin/kdamonds/0/state=update_tuned_intervals ret=22 errno=0
+OBS interval=0
+GET /sys/kernel/mm/damon/admin/kdamonds/0/contexts/0/monitoring_attrs/intervals/sample_us=2500 ret=5 errno=0
+GET /sys/kernel/mm/damon/admin/kdamonds/0/contexts/0/monitoring_attrs/intervals/aggr_us=50000 ret=6 errno=0
+SET /sys/kernel/mm/damon/admin/kdamonds/0/state=update_tuned_intervals ret=22 errno=0
+OBS interval=1
+GET /sys/kernel/mm/damon/admin/kdamonds/0/contexts/0/monitoring_attrs/intervals/sample_us=2500 ret=5 errno=0
+GET /sys/kernel/mm/damon/admin/kdamonds/0/contexts/0/monitoring_attrs/intervals/aggr_us=50000 ret=6 errno=0
+SET /sys/kernel/mm/damon/admin/kdamonds/0/state=update_tuned_intervals ret=22 errno=0
+OBS interval=2
+GET /sys/kernel/mm/damon/admin/kdamonds/0/contexts/0/monitoring_attrs/intervals/sample_us=2500 ret=5 errno=0
+GET /sys/kernel/mm/damon/admin/kdamonds/0/contexts/0/monitoring_attrs/intervals/aggr_us=50000 ret=6 errno=0
+SET /sys/kernel/mm/damon/admin/kdamonds/0/state=update_tuned_intervals ret=22 errno=0
+OBS interval=3
+GET /sys/kernel/mm/damon/admin/kdamonds/0/contexts/0/monitoring_attrs/intervals/sample_us=2500 ret=5 errno=0
+GET /sys/kernel/mm/damon/admin/kdamonds/0/contexts/0/monitoring_attrs/intervals/aggr_us=50000 ret=6 errno=0
+SET /sys/kernel/mm/damon/admin/kdamonds/0/state=update_tuned_intervals ret=22 errno=0
+OBS interval=4
+GET /sys/kernel/mm/damon/admin/kdamonds/0/contexts/0/monitoring_attrs/intervals/sample_us=2500 ret=5 errno=0
+GET /sys/kernel/mm/damon/admin/kdamonds/0/contexts/0/monitoring_attrs/intervals/aggr_us=50000 ret=6 errno=0
+SET /sys/kernel/mm/damon/admin/kdamonds/0/state=update_tuned_intervals ret=22 errno=0
+OBS interval=5
+GET /sys/kernel/mm/damon/admin/kdamonds/0/contexts/0/monitoring_attrs/intervals/sample_us=2500 ret=5 errno=0
+GET /sys/kernel/mm/damon/admin/kdamonds/0/contexts/0/monitoring_attrs/intervals/aggr_us=50000 ret=6 errno=0
+SET /sys/kernel/mm/damon/admin/kdamonds/0/state=update_tuned_intervals ret=22 errno=0
+OBS interval=6
+GET /sys/kernel/mm/damon/admin/kdamonds/0/contexts/0/monitoring_attrs/intervals/sample_us=2921 ret=5 errno=0
+GET /sys/kernel/mm/damon/admin/kdamonds/0/contexts/0/monitoring_attrs/intervals/aggr_us=58420 ret=6 errno=0
+SET /sys/kernel/mm/damon/admin/kdamonds/0/state=update_tuned_intervals ret=22 errno=0
+OBS interval=7
+GET /sys/kernel/mm/damon/admin/kdamonds/0/contexts/0/monitoring_attrs/intervals/sample_us=3399 ret=5 errno=0
+GET /sys/kernel/mm/damon/admin/kdamonds/0/contexts/0/monitoring_attrs/intervals/aggr_us=67980 ret=6 errno=0
+GET /sys/kernel/mm/damon/admin/kdamonds/0/pid=25 ret=3 errno=0
+SET /sys/kernel/mm/damon/admin/kdamonds/0/state=off ret=3 errno=0
+TRACE_BEGIN errno=0
+# tracer: nop
+#
+# entries-in-buffer/entries-written: 120/120   #P:1
+#
+#                                _-----=> irqs-off/BH-disabled
+#                               / _----=> need-resched
+#                              | / _---=> hardirq/softirq
+#                              || / _--=> preempt-depth
+#                              ||| / _-=> migrate-disable
+#                              |||| /     delay
+#           TASK-PID     CPU#  |||||  TIMESTAMP  FUNCTION
+#              | |         |   |||||     |         |
+       kdamond.0-25      [000] .....     0.928030: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3084894208-3085156352: 1 0
+       kdamond.0-25      [000] .....     0.932030: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085156352-3085418496: 1 0
+       kdamond.0-25      [000] .....     0.932030: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085418496-3085680640: 1 0
+       kdamond.0-25      [000] .....     0.932030: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085680640-3085942784: 3 0
+       kdamond.0-25      [000] .....     0.932030: damon_monitor_intervals_tune: sample_us=2500
+       kdamond.0-25      [000] .....     1.012035: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3084894208-3085156352: 0 0
+       kdamond.0-25      [000] .....     1.012035: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085156352-3085418496: 0 0
+       kdamond.0-25      [000] .....     1.012035: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085418496-3085680640: 0 0
+       kdamond.0-25      [000] .....     1.012035: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085680640-3085942784: 6 0
+       kdamond.0-25      [000] .....     1.012035: damon_monitor_intervals_tune: sample_us=2500
+       kdamond.0-25      [000] .....     1.092040: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3084894208-3085156352: 1 0
+       kdamond.0-25      [000] .....     1.092040: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085156352-3085418496: 1 0
+       kdamond.0-25      [000] .....     1.092040: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085418496-3085680640: 1 0
+       kdamond.0-25      [000] .....     1.092040: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085680640-3085942784: 5 0
+       kdamond.0-25      [000] .....     1.092040: damon_monitor_intervals_tune: sample_us=2500
+       kdamond.0-25      [000] .....     1.172045: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3084894208-3085156352: 0 0
+       kdamond.0-25      [000] .....     1.172045: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085156352-3085418496: 0 0
+       kdamond.0-25      [000] .....     1.172045: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085418496-3085680640: 0 0
+       kdamond.0-25      [000] .....     1.172045: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085680640-3085942784: 3 0
+       kdamond.0-25      [000] .....     1.172045: damon_monitor_intervals_tune: sample_us=2500
+       kdamond.0-25      [000] .....     1.252050: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3084894208-3085156352: 0 1
+       kdamond.0-25      [000] .....     1.252050: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085156352-3085418496: 0 1
+       kdamond.0-25      [000] .....     1.252050: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085418496-3085680640: 0 1
+       kdamond.0-25      [000] .....     1.252050: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085680640-3085942784: 5 0
+       kdamond.0-25      [000] .....     1.252050: damon_monitor_intervals_tune: sample_us=2500
+       kdamond.0-25      [000] .....     1.332055: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3084894208-3085156352: 0 2
+       kdamond.0-25      [000] .....     1.332055: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085156352-3085418496: 0 2
+       kdamond.0-25      [000] .....     1.332055: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085418496-3085680640: 0 2
+       kdamond.0-25      [000] .....     1.332055: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085680640-3085942784: 2 0
+       kdamond.0-25      [000] .....     1.332055: damon_monitor_intervals_tune: sample_us=2500
+       kdamond.0-25      [000] .....     1.412060: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3084894208-3085156352: 1 0
+       kdamond.0-25      [000] .....     1.412060: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085156352-3085418496: 1 0
+       kdamond.0-25      [000] .....     1.412060: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085418496-3085680640: 1 0
+       kdamond.0-25      [000] .....     1.412060: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085680640-3085942784: 3 0
+       kdamond.0-25      [000] .....     1.412060: damon_monitor_intervals_tune: sample_us=2500
+       kdamond.0-25      [000] .....     1.492065: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3084894208-3085156352: 0 0
+       kdamond.0-25      [000] .....     1.492065: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085156352-3085418496: 0 0
+       kdamond.0-25      [000] .....     1.492065: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085418496-3085680640: 0 0
+       kdamond.0-25      [000] .....     1.492065: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085680640-3085942784: 2 0
+       kdamond.0-25      [000] .....     1.492065: damon_monitor_intervals_tune: sample_us=2500
+       kdamond.0-25      [000] .....     1.572070: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3084894208-3085156352: 1 0
+       kdamond.0-25      [000] .....     1.572070: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085156352-3085418496: 1 0
+       kdamond.0-25      [000] .....     1.572070: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085418496-3085680640: 1 0
+       kdamond.0-25      [000] .....     1.572070: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085680640-3085942784: 4 0
+       kdamond.0-25      [000] .....     1.572070: damon_monitor_intervals_tune: sample_us=2500
+       kdamond.0-25      [000] .....     1.652075: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3084894208-3085156352: 0 0
+       kdamond.0-25      [000] .....     1.652075: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085156352-3085418496: 0 0
+       kdamond.0-25      [000] .....     1.652075: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085418496-3085680640: 0 0
+       kdamond.0-25      [000] .....     1.652075: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085680640-3085942784: 3 0
+       kdamond.0-25      [000] .....     1.652075: damon_monitor_intervals_tune: sample_us=2500
+       kdamond.0-25      [000] .....     1.732080: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3084894208-3085156352: 0 1
+       kdamond.0-25      [000] .....     1.732080: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085156352-3085418496: 0 1
+       kdamond.0-25      [000] .....     1.732080: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085418496-3085680640: 0 1
+       kdamond.0-25      [000] .....     1.732080: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085680640-3085942784: 3 1
+       kdamond.0-25      [000] .....     1.732080: damon_monitor_intervals_tune: sample_us=2500
+       kdamond.0-25      [000] .....     1.812085: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3084894208-3085156352: 1 0
+       kdamond.0-25      [000] .....     1.812085: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085156352-3085418496: 1 0
+       kdamond.0-25      [000] .....     1.812085: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085418496-3085680640: 1 0
+       kdamond.0-25      [000] .....     1.812085: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085680640-3085942784: 4 0
+       kdamond.0-25      [000] .....     1.812085: damon_monitor_intervals_tune: sample_us=2500
+       kdamond.0-25      [000] .....     1.892090: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3084894208-3085156352: 0 0
+       kdamond.0-25      [000] .....     1.892090: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085156352-3085418496: 0 0
+       kdamond.0-25      [000] .....     1.892090: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085418496-3085680640: 0 0
+       kdamond.0-25      [000] .....     1.892090: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085680640-3085942784: 3 0
+       kdamond.0-25      [000] .....     1.892090: damon_monitor_intervals_tune: sample_us=2500
+       kdamond.0-25      [000] .....     1.972095: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3084894208-3085156352: 0 1
+       kdamond.0-25      [000] .....     1.972095: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085156352-3085418496: 0 1
+       kdamond.0-25      [000] .....     1.972095: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085418496-3085680640: 0 1
+       kdamond.0-25      [000] .....     1.972095: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085680640-3085942784: 4 0
+       kdamond.0-25      [000] .....     1.972095: damon_monitor_intervals_tune: sample_us=2500
+       kdamond.0-25      [000] .....     2.052100: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3084894208-3085156352: 0 2
+       kdamond.0-25      [000] .....     2.052100: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085156352-3085418496: 0 2
+       kdamond.0-25      [000] .....     2.052100: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085418496-3085680640: 0 2
+       kdamond.0-25      [000] .....     2.052100: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085680640-3085942784: 6 0
+       kdamond.0-25      [000] .....     2.052100: damon_monitor_intervals_tune: sample_us=2500
+       kdamond.0-25      [000] .....     2.132105: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3084894208-3085156352: 1 0
+       kdamond.0-25      [000] .....     2.132105: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085156352-3085418496: 1 0
+       kdamond.0-25      [000] .....     2.132105: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085418496-3085680640: 1 0
+       kdamond.0-25      [000] .....     2.132105: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085680640-3085942784: 3 0
+       kdamond.0-25      [000] .....     2.132105: damon_monitor_intervals_tune: sample_us=2500
+       kdamond.0-25      [000] .....     2.212110: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3084894208-3085156352: 0 0
+       kdamond.0-25      [000] .....     2.212110: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085156352-3085418496: 0 0
+       kdamond.0-25      [000] .....     2.212110: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085418496-3085680640: 0 0
+       kdamond.0-25      [000] .....     2.212110: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085680640-3085942784: 7 0
+       kdamond.0-25      [000] .....     2.212110: damon_monitor_intervals_tune: sample_us=2500
+       kdamond.0-25      [000] .....     2.292115: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3084894208-3085156352: 0 1
+       kdamond.0-25      [000] .....     2.292115: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085156352-3085418496: 0 1
+       kdamond.0-25      [000] .....     2.292115: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085418496-3085680640: 0 1
+       kdamond.0-25      [000] .....     2.292115: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085680640-3085942784: 4 0
+       kdamond.0-25      [000] .....     2.292115: damon_monitor_intervals_tune: sample_us=2500
+       kdamond.0-25      [000] .....     2.372120: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3084894208-3085156352: 1 0
+       kdamond.0-25      [000] .....     2.372120: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085156352-3085418496: 1 0
+       kdamond.0-25      [000] .....     2.372120: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085418496-3085680640: 1 0
+       kdamond.0-25      [000] .....     2.372120: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085680640-3085942784: 2 0
+       kdamond.0-25      [000] .....     2.372120: damon_monitor_intervals_tune: sample_us=2500
+       kdamond.0-25      [000] .....     2.452125: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3084894208-3085156352: 0 0
+       kdamond.0-25      [000] .....     2.452125: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085156352-3085418496: 0 0
+       kdamond.0-25      [000] .....     2.452125: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085418496-3085680640: 0 0
+       kdamond.0-25      [000] .....     2.452125: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085680640-3085942784: 1 0
+       kdamond.0-25      [000] .....     2.452125: damon_monitor_intervals_tune: sample_us=3399
+       kdamond.0-25      [000] .....     2.532130: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3084894208-3085156352: 0 1
+       kdamond.0-25      [000] .....     2.532130: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085156352-3085418496: 0 1
+       kdamond.0-25      [000] .....     2.532130: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085418496-3085680640: 0 1
+       kdamond.0-25      [000] .....     2.532130: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085680640-3085942784: 2 0
+       kdamond.0-25      [000] .....     2.532130: damon_monitor_intervals_tune: sample_us=2921
+       kdamond.0-25      [000] .....     2.612135: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3084894208-3085156352: 1 0
+       kdamond.0-25      [000] .....     2.612135: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085156352-3085418496: 1 0
+       kdamond.0-25      [000] .....     2.612135: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085418496-3085680640: 1 0
+       kdamond.0-25      [000] .....     2.612135: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085680640-3085942784: 6 0
+       kdamond.0-25      [000] .....     2.612135: damon_monitor_intervals_tune: sample_us=2500
+       kdamond.0-25      [000] .....     2.692140: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3084894208-3085156352: 0 0
+       kdamond.0-25      [000] .....     2.692140: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085156352-3085418496: 0 0
+       kdamond.0-25      [000] .....     2.692140: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085418496-3085680640: 0 0
+       kdamond.0-25      [000] .....     2.692140: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085680640-3085942784: 4 0
+       kdamond.0-25      [000] .....     2.692140: damon_monitor_intervals_tune: sample_us=2500
+       kdamond.0-25      [000] .....     2.772145: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3084894208-3085156352: 0 1
+       kdamond.0-25      [000] .....     2.772145: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085156352-3085418496: 0 1
+       kdamond.0-25      [000] .....     2.772145: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085418496-3085680640: 0 1
+       kdamond.0-25      [000] .....     2.772145: damos_before_apply: ctx_idx=0 scheme_idx=0 target_idx=0 nr_regions=4 3085680640-3085942784: 1 0
+       kdamond.0-25      [000] .....     2.772145: damon_monitor_intervals_tune: sample_us=3399
+TRACE_END read_ret=0 errno=0
+INTERVALS32_GUEST_DONE
+reboot: Power off not available: System halted instead
+qemu-system-i386: terminating on signal 15 from pid 2 (timeout)

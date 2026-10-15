@@ -1,0 +1,12 @@
+tsc: Unable to calibrate against PIT
+L1TF: Kernel not compiled for PAE. No mitigation for L1TF
+BANDWIDTH32_GUEST_READY long_bits=32 uptime=0.68
+ENABLED Y
+KDAMOND_PID 21
+WORK_STARTED bytes=33554432 pages=8192 uptime=0.80
+WORK_SWEEPS 100000 uptime=13.14
+WORK_STOP uptime=23.80
+AGGR_INTERVAL 100000
+ESTIMATED_BANDWIDTH 24303
+BANDWIDTH32_GUEST_DONE
+reboot: Power off not available: System halted instead

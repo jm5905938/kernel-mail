@@ -1,0 +1,8 @@
+0x0000fff0 in ?? ()
+Breakpoint 1 at 0xc114dd35
+BWPROBE hit=1 access_bytes=0 sum64=0 sum_wrap=0 total_region_bytes=268300288 targets=1 regions=48 active_regions=0 aggr_us=100000 wrapped_product=0 quotient_bps=0 param_bps=0 correct_bps=0 correct_fits_ulong=1 sum_matches=1 division_matches=1
+BWPROBE hit=2 access_bytes=33357824 sum64=33357824 sum_wrap=0 total_region_bytes=268300288 targets=1 regions=28 active_regions=7 aggr_us=100000 wrapped_product=3107979264 quotient_bps=31079 param_bps=31079 correct_bps=333578240 correct_fits_ulong=1 sum_matches=1 division_matches=1
+BWPROBE hit=3 access_bytes=65200128 sum64=65200128 sum_wrap=0 total_region_bytes=268300288 targets=1 regions=42 active_regions=12 aggr_us=100000 wrapped_product=2524446720 quotient_bps=25244 param_bps=25244 correct_bps=652001280 correct_fits_ulong=1 sum_matches=1 division_matches=1
+BWPROBE hit=4 access_bytes=41152512 sum64=41152512 sum_wrap=0 total_region_bytes=268300288 targets=1 regions=35 active_regions=14 aggr_us=100000 wrapped_product=2430337024 quotient_bps=24303 param_bps=24303 correct_bps=411525120 correct_fits_ulong=1 sum_matches=1 division_matches=1
+qemu-system-i386: terminating on signal 15 from pid 28 (timeout)
+[Inferior 1 (process 1) exited normally]

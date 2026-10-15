@@ -1,0 +1,182 @@
+c[?7l[2J[0mSeaBIOS (version Arch Linux 1.17.0-2-2)
+Booting from ROM..c[?7l[2JL1TF: Kernel not compiled for PAE. No mitigation for L1TF
+STAT32_GUEST_READY long_bits=32
+MOUNT_SYSFS ret=0 errno=17
+MOUNT_PROC ret=0 errno=17
+MEMINFO MemTotal:         254216 kB
+MemFree:          251384 kB
+MemAvailable:     247512 kB
+Buffers:               0 kB
+Cached:              904 kB
+SwapCached:            0 kB
+Active:                0 kB
+Inactive:              0 kB
+Active(anon):          0 kB
+Inactive(anon):        0 kB
+Active(file):          0 kB
+Inactive(file):        0 kB
+Unevictable:         868 kB
+Mlocked:               0 kB
+SwapTotal:             0 kB
+SwapFree:              0 kB
+Dirty:                 0 kB
+Writeback:             0 kB
+AnonPages:            40 kB
+Mapped:              816 kB
+Shmem:                 0 kB
+KReclaimable:        136 kB
+Slab:               1616 kB
+SReclaimable:        136 kB
+SUnreclaim:         1480 kB
+KernelStack:         168 kB
+PageTables:           40 kB
+SecPageTables:         0 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:      127108 kB
+Committed_AS:        296 kB
+VmallocTotal:     770168 kB
+VmallocUsed:          12 kB
+VmallocChunk:          0 kB
+Percpu:               32 kB
+Balloon:               0 kB
+GPUActive:             0 kB
+GPUReclaim:            0 kB
+DirectMap4k:       16256 kB
+DirectMap4M:      245760 kB
+
+UPTIME_START 0.41 0.04
+
+ENABLED Y
+
+KDAMOND_PID 21
+
+AGGR_INTERVAL 0
+
+KDAMOND_STATUS_START Name:	kdamond.0
+Umask:	0022
+State:	I (idle)
+Tgid:	21
+Ngid:	0
+Pid:	21
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	32
+Groups:	 
+Kthread:	1
+Threads:	1
+SigQ:	0/1981
+SigPnd:	0000000000000000
+ShdPnd:	0000000000000000
+SigBlk:	0000000000000000
+SigIgn:	ffffffffffffffff
+SigCgt:	0000000000000000
+CapInh:	0000000000000000
+CapPrm:	000001ffffffffff
+CapEff:	000001ffffffffff
+CapBnd:	000001ffffffffff
+CapAmb:	0000000000000000
+NoNewPrivs:	0
+Speculation_Store_Bypass:	vulnerable
+SpeculationIndirectBranch:	always enabled
+Cpus_allowed:	1
+Cpus_allowed_list:	0
+voluntary_ctxt_switches:	12
+nonvoluntary_ctxt_switches:	0
+
+KDAMOND_WCHAN_START kdamond_usleep
+SLEEP_PROBE remain=0 errno=0 uptime=1.43
+RAW_NANOSLEEP ret=0 errno=0 uptime=2.44
+WAIT_GUEST start=2.44 seconds=8
+WAIT_GUEST_DONE uptime=10.44 waits=77
+UPTIME_AFTER_8S 10.45 10.06
+
+ENABLED_AFTER Y
+
+KDAMOND_PID_AFTER 21
+
+AGGR_INTERVAL_AFTER 1600000
+
+KDAMOND_STATUS_AFTER_8S Name:	kdamond.0
+Umask:	0022
+State:	I (idle)
+Tgid:	21
+Ngid:	0
+Pid:	21
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	32
+Groups:	 
+Kthread:	1
+Threads:	1
+SigQ:	0/1981
+SigPnd:	0000000000000000
+ShdPnd:	0000000000000000
+SigBlk:	0000000000000000
+SigIgn:	ffffffffffffffff
+SigCgt:	0000000000000000
+CapInh:	0000000000000000
+CapPrm:	000001ffffffffff
+CapEff:	000001ffffffffff
+CapBnd:	000001ffffffffff
+CapAmb:	0000000000000000
+NoNewPrivs:	0
+Speculation_Store_Bypass:	vulnerable
+SpeculationIndirectBranch:	always enabled
+Cpus_allowed:	1
+Cpus_allowed_list:	0
+voluntary_ctxt_switches:	299
+nonvoluntary_ctxt_switches:	0
+
+KDAMOND_WCHAN_AFTER_8S kdamond_usleep
+WAIT_GUEST start=10.45 seconds=12
+WAIT_GUEST_DONE uptime=22.51 waits=116
+UPTIME_AFTER_20S 22.51 22.12
+
+AGGR_INTERVAL_AFTER_20S 3200000
+
+KDAMOND_STATUS_AFTER_20S Name:	kdamond.0
+Umask:	0022
+State:	I (idle)
+Tgid:	21
+Ngid:	0
+Pid:	21
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	32
+Groups:	 
+Kthread:	1
+Threads:	1
+SigQ:	0/1981
+SigPnd:	0000000000000000
+ShdPnd:	0000000000000000
+SigBlk:	0000000000000000
+SigIgn:	ffffffffffffffff
+SigCgt:	0000000000000000
+CapInh:	0000000000000000
+CapPrm:	000001ffffffffff
+CapEff:	000001ffffffffff
+CapBnd:	000001ffffffffff
+CapAmb:	0000000000000000
+NoNewPrivs:	0
+Speculation_Store_Bypass:	vulnerable
+SpeculationIndirectBranch:	always enabled
+Cpus_allowed:	1
+Cpus_allowed_list:	0
+voluntary_ctxt_switches:	367
+nonvoluntary_ctxt_switches:	0
+
+KDAMOND_WCHAN_AFTER_20S kdamond_usleep
+ESTIMATED_BANDWIDTH 0
+
+PERCENTILES p0=19200 p50=0 p100=0 bytes=266
+STAT32_GUEST_DONE
+reboot: Power off not available: System halted instead
+qemu-system-i386: terminating on signal 15 from pid 2 (timeout)

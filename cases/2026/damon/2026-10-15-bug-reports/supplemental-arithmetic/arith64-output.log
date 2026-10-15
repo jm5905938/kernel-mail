@@ -1,0 +1,3 @@
+long_bits=64 max_events=20971520 access_events=1048576 target=838860 score=12500 adaptation=8750 new_sample=4375
+bandwidth=671088640 percentile_max=100 percentile_final=100 next_percentile=101 index63=11 index100=16
+correct_target=838860 correct_bandwidth=671088640

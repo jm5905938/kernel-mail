@@ -1,0 +1,41 @@
+
+build/damon/verify-stat-32/vmlinux:     file format elf32-i386
+
+
+Disassembly of section .text:
+
+c114dcd0 <damon_stat_damon_call_fn+0x60>:
+c114dcd0:	xor    %ecx,%ecx
+c114dcd2:	mov    %eax,-0x14(%ebp)
+c114dcd5:	mov    %eax,%esi
+c114dcd7:	mov    %ebx,-0x20(%ebp)
+c114dcda:	lea    0x0(%esi),%esi
+c114dce0:	mov    0xc(%esi),%eax
+c114dce3:	lea    0xc(%esi),%ebx
+c114dce6:	cmp    %eax,%ebx
+c114dce8:	je     c114dd15 <damon_stat_damon_call_fn+0xa5>
+c114dcea:	lea    -0x18(%eax),%edx
+c114dced:	lea    0x0(%esi),%esi
+c114dcf0:	lea    %cs:0x0(%esi,%eiz,1),%esi
+c114dcf8:	lea    %cs:0x0(%esi,%eiz,1),%esi
+c114dd00:	mov    0x4(%edx),%eax
+c114dd03:	sub    (%edx),%eax
+c114dd05:	imul   0xc(%edx),%eax
+c114dd09:	add    %eax,%ecx
+c114dd0b:	mov    0x18(%edx),%eax
+c114dd0e:	lea    -0x18(%eax),%edx
+c114dd11:	cmp    %eax,%ebx
+c114dd13:	jne    c114dd00 <damon_stat_damon_call_fn+0x90>
+c114dd15:	mov    0x14(%esi),%eax
+c114dd18:	lea    -0x14(%eax),%esi
+c114dd1b:	cmp    %eax,%edi
+c114dd1d:	jne    c114dce0 <damon_stat_damon_call_fn+0x70>
+c114dd1f:	mov    -0x20(%ebp),%ebx
+c114dd22:	imul   $0xf4240,%ecx,%eax
+c114dd28:	xor    %edx,%edx
+c114dd2a:	xor    %edi,%edi
+c114dd2c:	xor    %esi,%esi
+c114dd2e:	div    %ebx
+c114dd30:	mov    %eax,0xc13d2b34
+c114dd35:	lea    0x0(%esi),%esi
+c114dd38:	lea    %cs:0x0(%esi,%eiz,1),%esi
